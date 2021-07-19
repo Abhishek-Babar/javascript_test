@@ -1,0 +1,87 @@
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+h2 {
+    text-align: center;
+
+    
+}
+#team-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+#team-details article {
+    max-width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+.img-wrapper {
+    max-width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(100deg,#fdb913,#f85c00);
+}
+.img-wrapper img {
+    width: 100%;
+}
+.info {
+    box-shadow: 0 0 2px black;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    max-width: 200px;
+    height: 290px;
+}
+.info h3 {
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#player-count-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#playerHeading {
+    font-size: 35px;
+    
+}
+#all-players {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.player-name {
+    padding-left: 10px;
+    margin-bottom: 2px !important;
+}
+.player-info {
+    box-shadow: 0 0 2px black;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: 15px;
+    width: 250px;
+    cursor: pointer;
+}
+.player-info:hover {
+    transform: translateY(-10px);
+    box-shadow:   0 7px 10px -1px rgba(0, 0, 0, 0.7);
+
+}
+.player-info p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: 450;
+   
+}
+.nav-link {
+    color: #fff;
+}
+#ipl-img {
+    color: #fff;
+}
